@@ -90,7 +90,7 @@ def handle_message(event):
          "config_file_path":r"C:/Users/DELL/Desktop/trained_model4-20200611T160437Z-001/trained_model4/config.json", 
          "model_file_path":r"C:/Users/DELL/Desktop/trained_model4-20200611T160437Z-001/trained_model4/pytorch_model.bin", 
          "vocab_file_path":r"C:/Users\DELL\Documents/專題/line-bot-tutorial-master/line-bot-tutorial-master/albert-zh-for-pytorch-transformers-master/albert_tiny/vocab.txt",
-         "num_labels":23 # 分幾類
+         "num_labels":15 # 分幾類
      }
     model, tokenizer = use_model(**model_setting)
     model.eval()
